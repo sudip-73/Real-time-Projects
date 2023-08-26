@@ -1,14 +1,22 @@
 import { Fragment } from "react";
 import "./App.css";
 import Navbar from "./component/Layout/Navbar";
+import RegPractice from "./component/RegPractice";
 
-import Register from "./component/Practice/Register";
+
 
 function App() {
   return (
     <Fragment>
-       <Navbar/>
-      <Register/>
+      <Navbar />
+     
+      
+        
+          <RegPractice />
+        
+        
+         
+      
     </Fragment>
   );
 }
